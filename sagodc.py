@@ -5,7 +5,7 @@ from discord.ext import commands
 
 sagotoken = ""
 
-sago = commands.Bot(command_prefix="mf! "
+sago = commands.Bot(command_prefix="mf! ")
 
 @sago.event
 async def on_ready():
