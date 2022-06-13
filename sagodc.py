@@ -20,3 +20,5 @@ async def version(ctx):
     embed.add_field(name="Version:", value="0.1", inline=False)
     embed.set_footer(text="by wg-")
     await ctx.send(embed=embed)
+
+sago.run(sagotoken)
