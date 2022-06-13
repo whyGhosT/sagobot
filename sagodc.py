@@ -15,10 +15,10 @@ async def on_ready():
 @sago.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandOnCooldown):
-    embed=discord.Embed(title=f"Yavaş ol. {:.2f}s'.format(retry_after) sonra tekrar dene..")
-    embed.set_author(name="SagoBot", url="https://whyghost.github.io")
-    embed.set_footer(text="by wg-")
-    await ctx.send(embed=embed)
+        embed=discord.Embed(title=f"Yavaş ol. %.2f saniye sonra tekrar dene.." % error.retry_after)
+        embed.set_author(name="SagoBot", url="https://whyghost.github.io")
+        embed.set_footer(text="by wg-")
+        await ctx.send(embed=embed)
 
 @sago.command(aliases=['versiyon'])
 @commands.cooldown(1,5,commands.BucketType.user)
