@@ -28,4 +28,15 @@ async def version(ctx):
     embed.set_footer(text="by wg-")
     await ctx.send(embed=embed)
 
+@sago.command(aliases=['help'])
+@commands.cooldown(1,5,commands.BucketType.user)
+async def yardım(ctx):
+    embed=discord.Embed()
+    embed.set_author(name="Yardım", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
+    embed.add_field(name="Eğlence Komutları İçin", value="mf! yardım eğlence", inline=True)
+    embed.add_field(name="Müzik Komutları İçin", value="mf! yardım müzik", inline=True)
+    embed.add_field(name="Diğer Komutlar İçin", value="mf! yardım diğer", inline=True)
+    embed.set_footer(text="by wg-")
+    await ctx.send(embed=embed)
+
 sago.run(sagotoken)
