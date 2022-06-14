@@ -7,6 +7,7 @@ from simages import rastgelesago
 sagotoken = ""
 
 sago = commands.Bot(command_prefix="mf! ")
+sago.remove_command('help')
 
 @sago.event
 async def on_ready():
