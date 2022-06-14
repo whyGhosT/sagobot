@@ -39,6 +39,18 @@ async def yardım(ctx, *args):
         embed.add_field(name="mf! sagola", value="Sagolan!", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
+    elif "müzik" in args:
+        embed=discord.Embed()
+        embed.set_author(name="Müzik Çok Yakında!", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
+        embed.set_footer(text="by wg-")
+        await ctx.send(embed=embed)
+    elif "diğer"in args:
+        embed=discord.Embed()
+        embed.set_author(name="Diğer Komutlar", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
+        embed.add_field(name="mf! versiyon", value="Botun sürümünü öğren.", inline=True)
+        embed.add_field(name="mf! developer", value="Bu botu kim yaptı?", inline=True)
+        embed.set_footer(text="by wg-")
+        await ctx.send(embed=embed)
     else:
         embed=discord.Embed()
         embed.set_author(name="Yardım", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
