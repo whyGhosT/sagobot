@@ -17,7 +17,7 @@ async def on_ready():
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandOnCooldown):
         embed=discord.Embed(title=f"Yavaş ol. %.2f saniye sonra tekrar dene.." % error.retry_after)
-        embed.set_author(name="SagoBot", url="https://whyghost.github.io")
+        embed.set_author(name="SagoBot", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
 
@@ -25,7 +25,7 @@ async def on_command_error(ctx, error):
 @commands.cooldown(1,5,commands.BucketType.user)
 async def version(ctx):
     embed=discord.Embed(title="Version : 0.1")
-    embed.set_author(name="SagoBot", url="https://whyghost.github.io")
+    embed.set_author(name="SagoBot", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
     embed.set_footer(text="by wg-")
     await ctx.send(embed=embed)
     
