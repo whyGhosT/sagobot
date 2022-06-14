@@ -3,6 +3,7 @@ import os
 import random
 from discord.ext import commands
 from simages import rastgelesago
+from yuh import sesa, slol, kapak
 
 sagotoken = ""
 
@@ -87,5 +88,25 @@ async def sagola(ctx):
         embed.set_footer(text="by wg-")
         embed.set_image(url=pu)
         await ctx.send(embed=embed)
+        
+@sago.command()
+@commands.cooldown(1,5,commands.BucketType.user)
+async def lirik(ctx):
+    randomxd = random.randint(0,90)
+    zort = sesa.copy()
+    zort2 = slol.copy()
+    zort3 = kapak.copy()
+    secbirini = zort[randomxd]
+    secamk = zort2[randomxd]
+    hadiamk = zort3[randomxd]
+    embed=discord.Embed()
+    embed.set_author(name=secbirini, url=secamk)
+    embed.set_footer(text="by wg-")
+    embed.set_image(url=hadiamk)
+    yapistir = await ctx.send(embed=embed)
+    up = '👍'
+    down = '👎'
+    await yapistir.add_reaction(up)
+    await yapistir.add_reaction(down)
 
 sago.run(sagotoken)
