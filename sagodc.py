@@ -117,5 +117,26 @@ async def ping(ctx):
     embed.set_author(name=f"Botun pingi : {ping}", url="https://whyghost.github.io")
     embed.set_footer(text="by wg-")
     await ctx.send(embed=embed)
+    
+@sago.command()
+@commands.cooldown(1,5,commands.BucketType.user)
+async def sagodans(ctx):
+    secbaqalim = random.randint(1,2)
+    if secbaqalim == 1:
+        ahh = rastgelesago.copy()
+        xd = ahh[8]
+        embed=discord.Embed()
+        embed.set_author(name=f"SAGO DANS SAGO DANS SAGO DANS WAOOW", url="https://whyghost.github.io")
+        embed.set_footer(text="by wg-")
+        embed.set_image(url=xd)
+        await ctx.send(embed=embed)
+    else:
+        ahh = rastgelesago.copy()
+        xd = ahh[13]
+        embed=discord.Embed()
+        embed.set_author(name=f"SAGO DANS SAGO DANS SAGO DANS WAOOW", url="https://whyghost.github.io")
+        embed.set_footer(text="by wg-")
+        embed.set_image(url=xd)
+        await ctx.send(embed=embed)
 
 sago.run(sagotoken)
