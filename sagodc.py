@@ -2,8 +2,7 @@ import discord
 import os
 import random
 from discord.ext import commands
-from simages import rastgelesago
-from yuh import sesa, slol, kapak
+from yuh import randomsago, sesa, slol, kapak
 
 sagotoken = ""
 
