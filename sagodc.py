@@ -37,6 +37,8 @@ async def yardım(ctx, *args):
         embed=discord.Embed()
         embed.set_author(name="Eğlence Komutları", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
         embed.add_field(name="mf! sagola", value="Sagolan!", inline=True)
+        embed.add_field(name="mf! lirik", value="Cümle mühendisinden rastgele bir söz..", inline=True)
+        embed.add_field(name="mf! sagodans", value="Sagoyu dans ettir..", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
     elif "müzik" in args:
