@@ -26,7 +26,7 @@ async def on_command_error(ctx, error):
 @sago.command(aliases=['versiyon'])
 @commands.cooldown(1,5,commands.BucketType.user)
 async def version(ctx):
-    embed=discord.Embed(title="Version : 0.2")
+    embed=discord.Embed(title="Version : 0.3")
     embed.set_author(name="SagoBot", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
     embed.set_footer(text="by wg-")
     await ctx.send(embed=embed)
