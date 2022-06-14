@@ -49,6 +49,7 @@ async def yardım(ctx, *args):
         embed.set_author(name="Diğer Komutlar", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
         embed.add_field(name="mf! versiyon", value="Botun sürümünü öğren.", inline=True)
         embed.add_field(name="mf! developer", value="Bu botu kim yaptı?", inline=True)
+        embed.add_field(name="mf! ping", value="Botun pingini ölç.", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
     else:
@@ -107,5 +108,14 @@ async def lirik(ctx):
     down = '👎'
     await yapistir.add_reaction(up)
     await yapistir.add_reaction(down)
+    
+@sago.command()
+@commands.cooldown(1,5,commands.BucketType.user)
+async def ping(ctx):
+    ping = round (sago.latency * 1000)
+    embed=discord.Embed()
+    embed.set_author(name=f"Botun pingi : {ping}", url="https://whyghost.github.io")
+    embed.set_footer(text="by wg-")
+    await ctx.send(embed=embed)
 
 sago.run(sagotoken)
