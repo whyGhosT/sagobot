@@ -47,6 +47,14 @@ async def yardım(ctx, *args):
         embed.add_field(name="Diğer Komutlar İçin", value="mf! yardım diğer", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
+        
+@sago.command()
+@commands.cooldown(1,5,commands.BucketType.user)
+async def developer(ctx):
+    embed=discord.Embed()
+    embed.set_author(name="by wg-", url="https://whyghost.github.io")
+    embed.set_image(url="https://i.pinimg.com/originals/dc/a8/eb/dca8eb77a4b4788f1abb112b4ca4f773.jpg")
+    await ctx.send(embed=embed)
 
 @sago.command()
 async def sagola(ctx):
