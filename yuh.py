@@ -4,13 +4,13 @@ rastgelesago = ['https://i.pinimg.com/736x/ed/d5/03/edd5032117dac523c4275e0c997d
 				'https://pbs.twimg.com/media/DbuX98yWkAEceyM.jpg',
 				'https://i.milliyet.com.tr/MolatikGaleri/2019/06/10/fft373_mf32867512.Jpeg',
 				'https://canerkorkmazli.com.tr/wp-content/uploads/sagopa-kajmer-bursa-konseri-1.jpg',
-				'https://www.konya.bel.tr/bldfoto/11/klt/sagopa_6.jpg'
-				'https://maksatbilgi.com/wp-content/uploads/2019/04/Sagopa-Kajmer-2019-Foto-Galeri-17.jpg'
-				'https://c.tenor.com/dGzeJ6myqs4AAAAC/snake-dance.gif'
-				'https://s8.gifyu.com/images/ezgif-2-6bfceba1921.gif'
-				'https://j.gifs.com/vVMVzq.gif'
-				'https://j.gifs.com/KeJaV8.gif'
-				'https://pbs.twimg.com/media/D0FsBpZXgAAlNkc.jpg'
+				'https://www.konya.bel.tr/bldfoto/11/klt/sagopa_6.jpg',
+				'https://maksatbilgi.com/wp-content/uploads/2019/04/Sagopa-Kajmer-2019-Foto-Galeri-17.jpg',
+				'https://c.tenor.com/dGzeJ6myqs4AAAAC/snake-dance.gif',
+				'https://s8.gifyu.com/images/ezgif-2-6bfceba1921.gif',
+				'https://j.gifs.com/vVMVzq.gif',
+				'https://j.gifs.com/KeJaV8.gif',
+				'https://pbs.twimg.com/media/D0FsBpZXgAAlNkc.jpg',
 				'https://c.tenor.com/Bei7bqjm-qwAAAAd/sagopa-sagopa-dans.gif']
 
 sesa = ['Kötürüm oldu ince ruhlar ordusu.',
@@ -102,8 +102,9 @@ sesa = ['Kötürüm oldu ince ruhlar ordusu.',
         "İsterdim ben de düşünmemek ama düşürüyo' düşünce ana bazen. Sen bakma, ben 'Unuttum' derim ama, her şey aklımda hâlen..",
         "Bu hayat bize bir gün bakar elbet. Bir üşütür bir yakar elbet. Ruhumuz darmadağın, paramparça.. Düştüğü yerden bir gün kalkar elbet.",
         "Eğer ki gönlün benimle olursa Yemen'de bile olsan yanımdasın. Eğer ki gönlün benimle değilse yanımda bile olsan uzaktasın.",
-        'Ben ne savaşlar verdim kendime bir rabbim şahit, sor ne zaman vurdun kendini en son. Katilim oldum her gece nedense.'
-        'Duvarlar üzerime geldikçe kendime 10 parmaklı bir surat yaptım...']
+        'Ben ne savaşlar verdim kendime bir rabbim şahit, sor ne zaman vurdun kendini en son. Katilim oldum her gece nedense.',
+        'Duvarlar üzerime geldikçe kendime 10 parmaklı bir surat yaptım...',
+        'Misaldi bence cennet ve cehennem masaldı, okunan tüm hikayeler hayaldi.']
 
 slol = ['https://youtu.be/ORJUUA97Zc4',
 	  'https://youtu.be/ORJUUA97Zc4',
@@ -195,7 +196,8 @@ slol = ['https://youtu.be/ORJUUA97Zc4',
       'https://youtu.be/j82SmDAvhag',
       'https://youtu.be/oC9ASVOvIwo',
       'https://youtu.be/UJrpxClziJw',
-      'https://youtu.be/UJrpxClziJw']
+      'https://youtu.be/UJrpxClziJw',
+      'https://youtu.be/WYb4xPOAV3U?t=766']
 
 kapak = ['https://upload.wikimedia.org/wikipedia/tr/e/e4/Bir_Pesimistin_G%C3%B6zya%C5%9Flar%C4%B1.jpg',
 		 'https://upload.wikimedia.org/wikipedia/tr/e/e4/Bir_Pesimistin_G%C3%B6zya%C5%9Flar%C4%B1.jpg',
@@ -287,4 +289,5 @@ kapak = ['https://upload.wikimedia.org/wikipedia/tr/e/e4/Bir_Pesimistin_G%C3%B6z
          'https://images.genius.com/7d43d09f7cbf781f8f2cf3718d6fba9f.1000x1000x1.jpg',
          'https://s2.dmcdn.net/v/17Nth1Vj_lwJKAOjm/x1080',
          'https://scontent.fist13-1.fna.fbcdn.net/v/t1.6435-9/175337608_4202789106452205_2313742554995777322_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Nq58r8p3li0AX-FEnR9&_nc_ht=scontent.fist13-1.fna&oh=00_AT8Z8iRDwgsdhb2VJwsjFTU3DMZLtKUcLa86W1qv6G00_w&oe=62D03EDB',
-         'https://scontent.fist13-1.fna.fbcdn.net/v/t1.6435-9/175337608_4202789106452205_2313742554995777322_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Nq58r8p3li0AX-FEnR9&_nc_ht=scontent.fist13-1.fna&oh=00_AT8Z8iRDwgsdhb2VJwsjFTU3DMZLtKUcLa86W1qv6G00_w&oe=62D03EDB']
+         'https://scontent.fist13-1.fna.fbcdn.net/v/t1.6435-9/175337608_4202789106452205_2313742554995777322_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Nq58r8p3li0AX-FEnR9&_nc_ht=scontent.fist13-1.fna&oh=00_AT8Z8iRDwgsdhb2VJwsjFTU3DMZLtKUcLa86W1qv6G00_w&oe=62D03EDB',
+         'https://upload.wikimedia.org/wikipedia/tr/e/e4/Bir_Pesimistin_G%C3%B6zya%C5%9Flar%C4%B1.jpg']
