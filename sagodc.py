@@ -129,7 +129,7 @@ async def sagodans(ctx):
         ahh = rastgelesago.copy()
         xd = ahh[8]
         embed=discord.Embed()
-        embed.set_author(name=f"SAGO DANS SAGO DANS SAGO DANS WAOOW", url="https://whyghost.github.io")
+        embed.set_author(name="SAGO DANS SAGO DANS SAGO DANS WAOOW", url="https://whyghost.github.io")
         embed.set_footer(text="by wg-")
         embed.set_image(url=xd)
         await ctx.send(embed=embed)
@@ -137,7 +137,7 @@ async def sagodans(ctx):
         ahh = rastgelesago.copy()
         xd = ahh[13]
         embed=discord.Embed()
-        embed.set_author(name=f"SAGO DANS SAGO DANS SAGO DANS WAOOW", url="https://whyghost.github.io")
+        embed.set_author(name="SAGO DANS SAGO DANS SAGO DANS WAOOW", url="https://whyghost.github.io")
         embed.set_footer(text="by wg-")
         embed.set_image(url=xd)
         await ctx.send(embed=embed)
