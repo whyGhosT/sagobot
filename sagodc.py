@@ -6,7 +6,7 @@ from yuh import randomsago, sesa, slol, kapak
 
 sagotoken = ""
 
-sago = commands.Bot(command_prefix="mf! ")
+sago = commands.Bot(command_prefix="mf!")
 sago.remove_command('help')
 
 @sago.event
@@ -36,9 +36,9 @@ async def yardım(ctx, *args):
     if "eğlence" in args:
         embed=discord.Embed()
         embed.set_author(name="Eğlence Komutları", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
-        embed.add_field(name="mf! sagola", value="Sagolan!", inline=True)
-        embed.add_field(name="mf! lirik", value="Cümle mühendisinden rastgele bir söz..", inline=True)
-        embed.add_field(name="mf! sagodans", value="Sagoyu dans ettir..", inline=True)
+        embed.add_field(name="mf!sagola", value="Sagolan!", inline=True)
+        embed.add_field(name="mf!lirik", value="Cümle mühendisinden rastgele bir söz..", inline=True)
+        embed.add_field(name="mf!sagodans", value="Sagoyu dans ettir..", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
     elif "müzik" in args:
@@ -49,19 +49,20 @@ async def yardım(ctx, *args):
     elif "diğer" in args:
         embed=discord.Embed()
         embed.set_author(name="Diğer Komutlar", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
-        embed.add_field(name="mf! versiyon", value="Botun sürümünü öğren.", inline=True)
-        embed.add_field(name="mf! developer", value="Bu botu kim yaptı?", inline=True)
-        embed.add_field(name="mf! ping", value="Botun pingini ölç.", inline=True)
+        embed.add_field(name="mf!versiyon", value="Botun sürümünü öğren.", inline=True)
+        embed.add_field(name="mf!developer", value="Bu botu kim yaptı?", inline=True)
+        embed.add_field(name="mf!ping", value="Botun pingini ölç.", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
     else:
         embed=discord.Embed()
         embed.set_author(name="Yardım", url="https://whyghost.github.io", icon_url="https://w0.peakpx.com/wallpaper/531/278/HD-wallpaper-sagopa-kajmer-turkce-rap-thumbnail.jpg")
-        embed.add_field(name="Eğlence Komutları İçin", value="mf! yardım eğlence", inline=True)
-        embed.add_field(name="Müzik Komutları İçin", value="mf! yardım müzik", inline=True)
-        embed.add_field(name="Diğer Komutlar İçin", value="mf! yardım diğer", inline=True)
+        embed.add_field(name="Eğlence Komutları İçin", value="mf!yardım eğlence", inline=True)
+        embed.add_field(name="Müzik Komutları İçin", value="mf!yardım müzik", inline=True)
+        embed.add_field(name="Diğer Komutlar İçin", value="mf!yardım diğer", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
+
         
 @sago.command()
 @commands.cooldown(1,5,commands.BucketType.user)
