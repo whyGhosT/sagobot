@@ -2,7 +2,7 @@ import discord
 import os
 import random
 from discord.ext import commands
-from yuh import randomsago, sesa, slol, kapak
+from yuh import randomsago, sesa, slol, kapak, alb, albfoto
 
 sagotoken = ""
 
@@ -39,6 +39,7 @@ async def yardım(ctx, *args):
         embed.add_field(name="mf!sagola", value="Sagolan!", inline=True)
         embed.add_field(name="mf!lirik", value="Cümle mühendisinden rastgele bir söz..", inline=True)
         embed.add_field(name="mf!sagodans", value="Sagoyu dans ettir..", inline=True)
+        embed.add_field(name="mf!albümöner", value="Albüm önerir..", inline=True)
         embed.set_footer(text="by wg-")
         await ctx.send(embed=embed)
     elif "müzik" in args:
@@ -140,6 +141,33 @@ async def sagodans(ctx):
         embed.set_author(name="SAGO DANS SAGO DANS SAGO DANS WAOOW", url="https://whyghost.github.io")
         embed.set_footer(text="by wg-")
         embed.set_image(url=xd)
+        await ctx.send(embed=embed)
+        
+    
+@sago.command(aliases=['albümöner','albumoner'])
+@commands.cooldown(1,5,commands.BucketType.user)
+async def album(ctx):
+    secaq = random.randint(0,28)
+    if secaq == 2 or secaq == 10:
+        mm = alb.copy()
+        xdd = alb[secaq]
+        ahh = rastgelesago.copy()
+        seecc = random.choice(ahh)
+        embed=discord.Embed()
+        embed.set_author(name=f"{xdd} dinlenir..", url="https://whyghost.github.io")
+        embed.set_footer(text="by wg-")
+        embed.set_image(url=seecc)
+        await ctx.send(embed=embed)
+    else:
+        mm = alb.copy()
+        mmm = albfoto.copy()
+        ahhh = albfoto.copy()
+        xdd = alb[secaq]
+        seeccc = albfoto[secaq]
+        embed=discord.Embed()
+        embed.set_author(name=f"{xdd} dinlenir..", url="https://whyghost.github.io")
+        embed.set_footer(text="by wg-")
+        embed.set_image(url=seeccc)
         await ctx.send(embed=embed)
 
 sago.run(sagotoken)
