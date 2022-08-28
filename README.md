@@ -1,4 +1,2 @@
 # SagoBOT
-Açık kaynaklı, Python'dan hazırlanan Sago severler için yapılan Discord botu.
-
-Yapım aşamasında.
+İptal. Nedenini sormayın. Belki ilerde tekrar.
